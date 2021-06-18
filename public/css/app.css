@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header .header-top {
+  background-color: #0182f9;
+}
+
+header .header-top ul {
+  text-align: right;
+}
+
+header .header-top ul li:last-child {
+  padding-left: 60px;
+}
+
+header .header-top ul li a {
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+header .header-bottom {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .header-bottom .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-bottom .nav-menu li a {
+  font-weight: 600;
+  color: #1c1c1c;
+  display: inline-block;
+  line-height: 113px;
+  margin: 0 20px;
+}
+
+header .header-bottom .nav-menu li a.active,
+header .header-bottom .nav-menu li a:hover {
+  color: #0182f9;
+  border-bottom: 4px solid #0182f9;
+}
+
+header .header-bottom .nav-menu .search-bar {
+  width: 10%;
+  border-bottom: 2px solid #0182f9;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .header-bottom .nav-menu .search-bar input {
+  text-align: right;
+  color: #1c1c1c;
+  font-weight: bold;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding-right: 6px;
+}
+
+header .header-bottom .nav-menu .search-bar .icon::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\F002";
+  color: #1c1c1c;
+}
+

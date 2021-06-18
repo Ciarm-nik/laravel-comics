@@ -15,9 +15,9 @@
 </head>
 <body>
 
-@include ('partials.header')
-@include ('partials.main')
-@include ('partials.footer')
+    @include ('partials.header')
+    @include ('partials.main')
+    @include ('partials.footer')
 
     @yield('content')
 

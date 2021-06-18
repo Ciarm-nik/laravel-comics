@@ -1,0 +1,82 @@
+header{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li{
+            display: inline-block;
+
+        }
+    }
+    .header-top{
+        background-color: $main_color;
+        ul{
+            text-align: right;
+            li{
+
+                &:last-child{
+                    padding-left: 60px;
+                }
+                a{
+                    color: $light_color;
+                    padding: 5px;
+                    font-size: 12px;
+                    display: inline-block;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .header-bottom{
+        background-color: $light_color;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        .nav-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li{
+                a{
+                    font-weight: 600;
+                    color: $dark_color;
+                    display: inline-block;
+                    line-height: 113px;
+                    margin: 0 20px;
+
+
+                    &.active, &:hover{
+                        color: $main_color;
+                        border-bottom: 4px solid $main_color;
+                    }
+                }
+            }
+
+            .search-bar{
+                width: 10%;
+                border-bottom: 2px solid $main_color;
+                display: flex;
+                justify-content: flex-end;
+                input{
+                    text-align: right;
+                    color: $dark_color;
+                    font-weight: bold;
+                    width: 70%;
+                    border: none;
+                    outline: none;
+                    padding-right: 6px;
+                }
+                .icon::after{
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    content: "\f002";
+                    color: $dark_color;
+
+                }
+            }
+
+
+        }
+
+    }
+}
