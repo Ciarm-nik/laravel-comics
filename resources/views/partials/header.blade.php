@@ -25,6 +25,7 @@
                 <div class="logo">
                      <a href="{{ route('home')}}">
                         <img src="{{asset('images/dc-logo.png')}}" alt="">
+                        
                     </a>
                 </div>
                 <div class="nav-bar">
@@ -33,7 +34,7 @@
                             <a class="uppercase" href="#">characters</a>
                         </li>
                         <li>
-                            <a class="uppercase active" href="#">comics</a>
+                            <a class="uppercase active" href="{{route('comics')}}">comics</a>
                         </li>
                         <li>
                             <a class="uppercase" href="#">movies</a>
@@ -70,3 +71,11 @@
         </div>
     </div>
 </header>
+
+<section>
+
+
+
+
+</section>
+

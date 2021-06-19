@@ -1,11 +1,65 @@
 @charset "UTF-8";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
+}
+
+.load_more {
+  margin: auto;
+  padding: 40px 0;
+}
+
+.load_more h3 {
+  margin: 0;
+}
+
+.load_more h3 a {
+  background-color: #0182f9;
+  color: #fff;
+  padding: 16px 14px;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border: 2px solid #0182f9;
+}
+
+.load_more h3 a:hover {
+  background-color: #1c1c1c;
+}
+
+.sign-button {
+  padding: 40px 0;
+}
+
+.sign-button h3 {
+  margin: 0;
+}
+
+.sign-button h3 a {
+  color: #fff;
+  padding: 16px 14px;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border: 2px solid #0182f9;
+}
+
+.sign-button h3 a:hover {
+  background-color: #0182f9;
 }
 
 header ul {
@@ -50,11 +104,12 @@ header .header-bottom .nav-menu {
 }
 
 header .header-bottom .nav-menu li a {
-  font-weight: 600;
+  font-weight: 500;
   color: #1c1c1c;
   display: inline-block;
   line-height: 113px;
   margin: 0 20px;
+  font-size: 13px;
 }
 
 header .header-bottom .nav-menu li a.active,
@@ -85,5 +140,118 @@ header .header-bottom .nav-menu .search-bar .icon::after {
   font-weight: 900;
   content: "\F002";
   color: #1c1c1c;
+}
+
+.jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  padding: 200px 0;
+  background-size: cover;
+}
+
+.section_com {
+  background-color: #1c1c1c;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container .card {
+  flex-basis: calc(100%/6);
+}
+
+.card-container img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card-container h4 {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer {
+  background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+footer .footer-top {
+  width: 100%;
+  display: flex;
+}
+
+footer .footer-top .footer-menu {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+footer .footer-top .footer-menu .ul-footer {
+  display: flex;
+}
+
+footer .footer-top .footer-menu .ul-footer .menu-footer-list ul {
+  margin: 0;
+  padding: 0 20px 10px 0;
+  list-style-type: none;
+}
+
+footer .footer-top .footer-menu .ul-footer .menu-footer-list ul h2 {
+  color: #fff;
+}
+
+footer .footer-top .footer-menu .ul-footer .menu-footer-list ul li {
+  padding: 4px 0;
+}
+
+footer .footer-top .footer-menu .ul-footer .menu-footer-list ul li a {
+  color: #666666;
+}
+
+footer .footer-top .footer-menu span {
+  color: #666666;
+}
+
+footer .footer-top .footer-menu span a {
+  color: #0182f9;
+}
+
+footer .footer-top .footer-right {
+  width: 50%;
+  background-image: url("/images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .footer-bottom {
+  background-color: #1c1c1c;
+}
+
+footer .footer-bottom .footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-bottom .footer-bottom-content .social-box {
+  display: flex;
+}
+
+footer .footer-bottom .footer-bottom-content .social-box h2 {
+  color: #0182f9;
+}
+
+footer .footer-bottom .footer-bottom-content .social-box ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer .footer-bottom .footer-bottom-content .social-box ul li {
+  padding-left: 20px;
 }
 

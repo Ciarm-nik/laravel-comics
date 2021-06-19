@@ -38,11 +38,12 @@ header{
 
             li{
                 a{
-                    font-weight: 600;
+                    font-weight: 500;
                     color: $dark_color;
                     display: inline-block;
                     line-height: 113px;
                     margin: 0 20px;
+                    font-size: 13px;
 
 
                     &.active, &:hover{
