@@ -12,7 +12,11 @@
 
         <div class="contentLeft col-8">
             <h1 class="uppercase">{{$cards["title"]}}</h1>
-            <h4>{{$cards["price"]}}</h4>
+            <div class="flex price">
+            <h4>Us. Price {{$cards["price"]}}</h4>
+            <h4>AVAIABLE</h4>
+            <h4>Check avaiability<i class="fa fa-sort-desc" aria-hidden="true"></i></h4>
+            </div>
             <p>{{$cards["description"]}}</p>
         </div>
 

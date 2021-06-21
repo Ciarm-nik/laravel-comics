@@ -29,30 +29,24 @@
     }
 }
 
-// Info section
-
-.info_section {
-    .menu {
-        margin: auto;
+.contentLeft{
+    margin-right: 20px;
+    .price{
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #55ba59;
+        color: white;
+        h4:first-child{
+            margin-right: 242px;
+        }
     }
-    background-color: $main_color;
-    padding: 50px 0;
-    .infoMenu{
-        align-items: center;
-        h4{
-            color: white;
-            font-size: 10px;
-        }
-        img{
-            width: 70px;
-            margin-right: 10px;
-        }
-    } 
-  
+    p {
+        text-align: justify;
+    }
+    i {
+        padding-left: 5px;
+    }
 }
-
-
-
 // Singola Card
 
 section{

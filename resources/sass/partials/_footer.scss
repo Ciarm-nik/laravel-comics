@@ -72,3 +72,27 @@ footer{
 }
 
 
+
+
+// Info section
+
+.info_section {
+    .menu {
+        margin: auto;
+    }
+    background-color: $main_color;
+    padding: 50px 0;
+    .infoMenu{
+        align-items: center;
+        h4{
+            color: white;
+            font-size: 10px;
+        }
+        img{
+            width: 70px;
+            margin-right: 12px;
+        }
+    } 
+  
+}
+
