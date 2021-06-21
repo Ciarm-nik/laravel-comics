@@ -150,6 +150,7 @@ header .header-bottom .nav-menu .search-bar .icon::after {
 
 .section_com {
   background-color: #1c1c1c;
+  padding: 50px 0;
 }
 
 .card-container {
@@ -158,7 +159,7 @@ header .header-bottom .nav-menu .search-bar .icon::after {
 }
 
 .card-container .card {
-  flex-basis: calc(100%/6);
+  flex-basis: calc(100% / 6);
 }
 
 .card-container img {
@@ -172,6 +173,7 @@ header .header-bottom .nav-menu .search-bar .icon::after {
   color: white;
   text-align: center;
   font-size: 12px;
+  padding-bottom: 30px;
 }
 
 footer {

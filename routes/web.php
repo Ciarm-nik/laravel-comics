@@ -32,3 +32,16 @@ Route::get('/comics', function () {
 })->name("comics");
 
 
+Route::get("/card/{index}", function ($index) {
+    $datiComics = config("comics");
+
+    if (!is_numeric($index) || $index < 0 || $index > count($datiComics) - 1) {
+        abort(404, "Card inesistente");
+    }
+
+    $cardScelta = $datiComics[intval($index)];
+
+    return view("singlePage", [
+        "cards" => $cardScelta
+    ]);
+})->name("pagina-singola-card");

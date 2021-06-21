@@ -9,10 +9,14 @@
     <div class="card-container container">
 
         {{-- @dump($listaComics) --}}
-        @foreach($listaComics as $com)
+        @foreach($listaComics as $key=> $com)
+        
         <div class="card">
+            
+            <a href="{{route('pagina-singola-card', ['index' => $key])}}">
             <img src="{{$com['thumb']}}" alt="">
-            <h4 class="uppercase">{{$com['title']}}</h4>
+            <h4 class="uppercase">{{$com['title']}}</h4>   
+            </a>
         </div>
         @endforeach
 
