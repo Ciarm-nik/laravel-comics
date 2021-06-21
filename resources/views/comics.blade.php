@@ -1,6 +1,6 @@
 @extends('layout.default')
 
-@section('page_title', 'elenco comics')
+@section('page_title', 'Elenco comics')
 
 @section( 'content')
 
@@ -21,7 +21,6 @@
                 <a class="uppercase" href="#">load more</a>
             </h3>
         </div>
-
 
     </div>
 
