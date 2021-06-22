@@ -6,6 +6,10 @@
 
 {{-- <h1>dettaglio card</h1> --}}
 
+<div class="jumbo_bottom">
+
+</div>
+
 <div class="containerSingle">
 
     <section class="top flex">
